@@ -1,16 +1,48 @@
 {
-  "name": "firebase-auth",
+  "name": "firebase-auth-demo",
   "version": "0.1.0",
   "private": true,
+  "description": "A simple React app demonstrating Firebase Authentication with Google, Microsoft, GitHub, and Yahoo providers.",
+  "author": "Aroop Mahanti",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/inzy007/firebase-auth-demo.git"
+  },
+  "homepage": "https://github.com/inzy007/firebase-auth-demo",
+  "bugs": {
+    "url": "https://github.com/inzy007/firebase-auth-demo/issues"
+  },
+  "keywords": [
+    "firebase",
+    "react",
+    "authentication",
+    "google-login",
+    "oauth",
+    "firebase-auth",
+    "github-login",
+    "microsoft-login",
+    "yahoo-login",
+    "react-firebase",
+    "auth-demo",
+    "starter-kit"
+  ],
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.6.4",
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "firebase": "^12.0.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "react-scripts": "5.0.1",
+    "react-hot-toast": "^2.5.2",
+    "react-router-dom": "^7.7.1",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
+  },
+  "overrides": {
+    "nth-check": "^2.0.1",
+    "postcss": "^8.4.31"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -35,5 +67,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
